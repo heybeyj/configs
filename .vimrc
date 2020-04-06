@@ -12,6 +12,8 @@ set expandtab " insert space characters whenever a tab is pressed.
 " Use ctrl-v<tab> to insert a real tab character. Use :retab to reset all tabs
 " to current settings
 
+highlight Comment cterm=italic " make comments appear in italics
+
 " Add indicator at column 80 to signify long lines
 highlight ColorColumn ctermbg=gray
 set colorcolumn=80
